@@ -20,4 +20,5 @@ v2= list(((float(p1[0]-p3[0])),(float(p1[1]-p3[1])) ,(float(p1[2]-p3[2]))))
 print (v1,v2)
 import numpy as np
 x= np.cross(v1,v2)
-print (x)
+pln= ('('+str(x[0])+'X'+')'+' '+'+'+' '+'('+str(x[1])+'Y'+')'+' '+'+'+' '+'('+str(x[2])+'Z'+')'+' '+'='+' '+str(x[0]*x1+x[1]*y1+x[2]*z1))
+print (pln)
